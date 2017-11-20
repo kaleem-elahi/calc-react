@@ -1,0 +1,75 @@
+.table {
+  width: 40%;
+  margin: auto;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+td {
+  padding: 0!important;
+  margin: 0!important;
+  border: 0!important;
+}
+
+.result {
+  padding: 10px;
+  width: 100%;
+  background: black;
+  color: white;
+  font-size: 44.5px;
+  text-align: right
+}
+
+table.calc{
+    background: rgb(0, 0, 0);
+    padding: 6px;
+    position: absolute;
+    border: -0.5px solid lightgrey;
+    box-shadow: -1px -1px 0px 3px rgb(221, 221, 221);
+    border-bottom: 22px groove gray;
+    border-radius: 5px;
+}
+
+input.btn {
+    height: 100%;
+    width: 60px;
+    border-radius: 0;
+    width: 100%;
+    font-size: 23px;
+    padding: 26px;
+    font-weight: 100!important;
+    font-family: 'ubuntu',sans-serif;
+    border: .5px solid white;
+    border: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
